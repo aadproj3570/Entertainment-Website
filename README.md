@@ -1,12 +1,22 @@
 # Entertainment Website
 
+## Project Description
+#### Spring 2023 (Group 7)
+## Languages/Tools: 
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+ </div>
+
 ## Collaborators
 
-Aadarsh Srivatsav <br/>
-Jaime Rodriguez <br/>
-Steeven Silva <br/>
-Cole Stillwell <br/>
-Johnny Sorn <br/>
-Esah Bukhari <br/>
-John Nguyen <br/>
-Sumera Siddiqi <br/>
+#### Aadarsh Srivatsav
+#### Jaime Rodriguez
+#### Steeven Silva
+#### Cole Stillwell
+#### Johnny Sorn
+#### Esah Bukhari
+#### John Nguyen
+#### Sumera Siddiqi
+
