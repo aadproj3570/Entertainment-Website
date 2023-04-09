@@ -1,0 +1,145 @@
+<html>
+<head>
+	<title>UHTv - Trending</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+#mm {background-image: url(images.jpg);
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+#ee {background-image: url(37705.jpg);
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+#bb {background-image: url(download.jpg);
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+#cc {background-image: url("Shrek.jpg");
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+#nn {background-image: url(sunny.jpg);
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+#rr {background-image: url(stone.jpg);
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+#aa {background-image: url(dead.jpg);
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+#pp {background-image: url(office.jpg);
+     background-size:cover;
+     width: 250px;
+     height: 400px;
+      }
+</style>
+</head>
+<body>
+	<header>
+		<nav class="container">
+			<ul class="list">
+				<li><a href="home.html">Home</a></li>
+        		<li><a href="payment.html">Account</a></li>
+        		<li><a href="watchlist.html">Watch List</a></li>
+				<li><a href="movies.html">Movies & Shows</a></li>
+				<li><a href="shorts.html">Shorts</a></li>
+				<li><a href="about.html">About</a></li>
+        		<li><a href="videoplayer.html">Video Player</a></li>
+				<li><a href="videoplayer.html">What We Learned</a></li>
+			</ul>
+		</nav>
+		<div class="search">
+      <form id = "d1">
+			Search Result: <input type="text" placeholder="Search..." name = "searchresult">
+			<button type="submit" onclick="check()">Search</button>
+      </form>
+		</div>
+	</header>
+	
+	<section class="trending">
+    <H1 id="head1"> <center> Movies </center></h1>
+<div>
+    <form>
+    <input type="button" onclick="mul()" id="mm">
+    <input type="button" onclick="plus()" id="ee">
+    <input type="button" onclick="min()" id="bb">
+    <input type="button" onclick="div()" id="cc">
+    </form>
+
+</div>
+<h1 id="head1"><center> Series </center></h1>
+<div>
+    <form>
+    <input type="button" onclick="sun()" id="nn">
+    <input type="button" onclick="noc()" id="rr">
+    <input type="button" onclick="boc()" id="aa">
+    <input type="button" onclick="goc()" id="pp">
+    </form>
+</div>
+    <div class="logo">
+			<img src="https://i.ytimg.com/vi/fcCKdJHeIU0/maxresdefault.jpg" width = 1400 height = 500 alt="UHTv Logo">
+		</div>
+	</section>
+
+	<script>
+    function check() {
+      var result = document.forms["d1"]["searchresult"].value;
+      if(result == "Star Wars") {
+        alert("Successful search!")
+      } else {
+        alert("Sorry that video doesnt exist!")
+      }
+    }
+
+  function mul()
+    {
+          window.location='https://www.youtube.com/watch?v=vKQi3bBA1y8&ab_channel=RottenTomatoesClassicTrailers';
+     }
+ function plus()
+    {
+          window.location='https://www.youtube.com/watch?v=8g18jFHCLXk&ab_channel=WarnerBros.Pictures';
+
+     }
+ function min()
+    {
+          window.location='https://www.youtube.com/watch?v=TcMBFSGVi1c&ab_channel=MarvelEntertainment';
+
+     }
+ function div()
+    {
+        window.location='https://www.youtube.com/watch?v=CwXOrWvPBPk&ab_channel=RottenTomatoesClassicTrailers';
+     }
+</script>
+<script>
+ function doc()
+   	 {
+          window.location='https://www.youtube.com/watch?v=blLAdGYPhiQ&ab_channel=FXNetworks';
+    	 }
+ function noc()
+    {
+          window.location='https://www.youtube.com/watch?v=jr32f0rnK1o&ab_channel=RottenTomatoesTV';
+
+     }
+ function boc()
+    {
+          window.location='https://www.youtube.com/watch?v=sfAc2U20uyg&ab_channel=TrailerBlend';
+
+     }
+ function goc()
+    {
+          window.location='https://www.youtube.com/watch?v=vKQi3bBA1y8&ab_channel=RottenTomatoesClassicTrailers';
+     }
+  </script>
+</body>
+</html>
