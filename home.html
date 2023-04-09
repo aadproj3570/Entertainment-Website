@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UHTv - Trending</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="container">
+			<ul class="list">
+				<li><a href="home.html">Home</a></li>
+        		<li><a href="payment.html">Account</a></li>
+        		<li><a href="watchlist.html">Watch List</a></li>
+				<li><a href="movies.html">Movies & Shows</a></li>
+				<li><a href="shorts.html">Shorts</a></li>
+				<li><a href="about.html">About</a></li>
+        		<li><a href="videoplayer.html">Video Player</a></li>
+				<li><a href="videoplayer.html">What We Learned</a></li>
+			</ul>
+		</nav>
+		<div class="search">
+      <form id = "d1">
+			Search Result: <input type="text" placeholder="Search..." name = "searchresult">
+			<button type="submit" onclick="check()">Search</button>
+      </form>
+		</div>
+	</header>
+	
+	<section class="trending">
+    <h1 style="color:white;">Welcome to UHTv!</h1>
+		<div class="video-grid">
+		</div>
+    <div class="logo">
+			<img src="https://i.ytimg.com/vi/fcCKdJHeIU0/maxresdefault.jpg" width = 1400 height = 500 alt="UHTv Logo">
+		</div>
+	</section>
+
+	<footer>
+		<p>&copy; 2023 UHTv. All Rights Reserved.</p>
+	</footer>
+
+	<script>
+    function check() {
+      var result = document.forms["d1"]["searchresult"].value;
+      if(result == "Star Wars") {
+        alert("Successful search!")
+      } else {
+        alert("Sorry that video doesnt exist!")
+      }
+    }
+  </script>
+</body>
+</html>
+
+
