@@ -1,22 +1,33 @@
-<html>
-<title> Payment Information </title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<style>
-#head1{text-align:center}
-#head1{color:rgb(255,255,255);}
-body{background-color:rgb(0,0,0);}
-#l01{color:rgb(255,255,255);}
-body{border-style:dotted; border-color:aquamarine}
-#f01{  width: 70px;
-  height: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center
-
-}
-</style>
+<title>UHTv - Shorts</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
 <body>
-<h1 id="head1"> Payment Information</h1>
+<div id="header">
+  <div id="logo">
+    <h1> <a href="#">UHTv</a></h1>
+    <h2>CIS 2336 - GROUP 7</h2>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+			<li class="active"><a href="account.html">Account</a></li>
+			<li><a href="watchlist.html">Watchlist</a></li>
+			<li><a href="movies_shows.html">Movies & Shows</a></li>
+			<li><a href="shorts.html">Shorts</a></li>
+			<li><a href="video_player.html">Video Player</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="what_we_learned.html">What We Learned</a></li>
+
+    </ul>
+  </div>
+</div>
+
+    <div align="center">
+      <h1 id="head1"> Payment Information</h1>
 <br>
 <br>
 <br>
@@ -39,7 +50,7 @@ Card Number:<input type="text" id="cn" placeholder="---- ---- ---- ----">
 Expiration Date:<input type="date" id="date">
 <br>
 <br>
-CVV:<input type="text" id="cvv" placeholder="***"">
+CVV:<input type="text" id="cvv" placeholder="***">
 <br>
 <br>
 Billing Address:<input type="text" id="addy">
@@ -49,9 +60,10 @@ Billing Address:<input type="text" id="addy">
 <script>
     function chknum()
     {
-        var num=document.getElementById("cn").value;
+        var num = document.getElementById("cn").value;
+        var cvv = document.getElementById("cvv").value;
         
-        if (num.length !=16)
+        if (num.length != 16 || cvv.length != 3)
         {
             alert("Invalid Information");
         }
@@ -59,11 +71,18 @@ Billing Address:<input type="text" id="addy">
         {
             alert("Valid Information");
         }
-
-        
-     
-    
-
     }
 
 </script>
+</form>
+
+    </div>
+  </div>
+  <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+  <p id="legal">Copyright &copy; 2023 UHTv. All Rights Reserved.</p>
+  <p id="links"><a href="#">Home</a> | <a href="#">Terms of Use</a></p>
+</div>
+</body>
+</html>
